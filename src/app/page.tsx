@@ -7,18 +7,6 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Footer from "./components/Footer";
 
 
-const skills = [
-  "Next.js",
-  "React",
-  "Node.js",
-  "Express",
-  "JavaScript",
-  "DSA",
-  "MongoDB",
-  "Generative AI",
-  "Tailwind CSS",
-];
-
 const HeroSection: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
@@ -77,7 +65,7 @@ const HeroSection: React.FC = () => {
         </motion.div>
       </section>
 
-      {/* Skills Section */}
+   
       <Footer />
     </div>
   );
